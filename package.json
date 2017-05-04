@@ -1,0 +1,26 @@
+{
+  "name": "falcor-lab-employees-backend",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "~4.14.0",
+    "joi": "^10.4.1",
+    "mongodb": "^2.2.26"
+  },
+  "description": "Backend REST server for Falcor Lab",
+  "main": "application.js",
+  "scripts": {
+    "start": "env NODE_PATH=. node application.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daferoli/Falcor_Lab_Employees.git"
+  },
+  "author": "David Feroli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daferoli/Falcor_Lab_Employees/issues"
+  },
+  "homepage": "https://github.com/daferoli/Falcor_Lab_Employees#readme"
+}
