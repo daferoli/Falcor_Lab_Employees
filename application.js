@@ -6,8 +6,9 @@ var app = Express();
 app.use(bodyParser.json());
 
 app.use('/employee', require('lib/employee'));
+app.use('/office', require('lib/office'));
 
-app.get('/', function(req,res){
+app.get('/', function(req, res){
   res.send('THIS IS A TEST');
 });
 
