@@ -1,3 +1,5 @@
+'use strict';
+
 var Express = require('express');
 var bodyParser = require('body-parser');
 
@@ -13,6 +15,7 @@ app.get('/', function(req, res){
   res.send('THIS IS A TEST');
 });
 
-app.listen(8000, function(){
-  console.log('app started');
+const BACKEND_PORT = 8001;
+app.listen(BACKEND_PORT, function(){
+  console.log('backend started on port: ' + BACKEND_PORT);
 });
